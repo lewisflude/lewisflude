@@ -1,30 +1,32 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next/font': ^13.0.3
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
   autoprefixer: ^10.4.13
+  clsx: ^1.2.1
   next: 13.0.3
   next-sanity: ^1.0.9
   postcss: ^8.4.19
   react: 18.2.0
   react-dom: 18.2.0
   sanity: dev-preview
-  styled-components: ^5.2
   tailwindcss: ^3.2.4
   typescript: 4.8.4
 
 dependencies:
+  '@next/font': 13.0.3
   '@types/node': 18.11.9
   '@types/react': 18.0.25
   '@types/react-dom': 18.0.8
+  clsx: 1.2.1
   next: 13.0.3_mqvh5p7ejg4taogoj6tpk3gd5a
   next-sanity: 1.0.9_7b4y7rukcnib3zb5nozdr45pum
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   sanity: 3.0.0-rc.2_c7v2zuxj5metpcsxmisvhlooy4
-  styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
   typescript: 4.8.4
 
 devDependencies:
@@ -507,6 +509,10 @@ packages:
 
   /@next/env/13.0.3:
     resolution: {integrity: sha512-/4WzeG61Ot/PxsghXkSqQJ6UohFfwXoZ3dtsypmR9EBP+OIax9JRq0trq8Z/LCT9Aq4JbihVkaazRWguORjTAw==}
+    dev: false
+
+  /@next/font/13.0.3:
+    resolution: {integrity: sha512-J3bZooNyhzhRshEJZlc4Kagfx6f8LQkPdCsP0nZm63dAUaoeMaQRidFFhbL68WZ3S5XleVfpGYypZuBSyJqYtw==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.0.3:
@@ -1482,6 +1488,11 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
+    dev: false
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
     dev: false
 
   /color-convert/1.9.3:

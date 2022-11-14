@@ -10,9 +10,11 @@
     "sanity-start": "sanity dev"
   },
   "dependencies": {
+    "@next/font": "^13.0.3",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
+    "clsx": "^1.2.1",
     "next": "13.0.3",
     "next-sanity": "^1.0.9",
     "react": "18.2.0",
