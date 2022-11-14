@@ -2,7 +2,8 @@
 const nextConfig = {
   experimental: {
     appDir: true,
+    serverComponentsExternalPackages: ["sanity", "next-sanity"],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
