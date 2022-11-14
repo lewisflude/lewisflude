@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sanity-start": "sanity dev"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -15,6 +16,8 @@
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sanity": "dev-preview",
+    "styled-components": "^5.2",
     "typescript": "4.8.4"
   },
   "devDependencies": {
